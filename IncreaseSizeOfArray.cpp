@@ -5,7 +5,7 @@ int main()
 {
     int *p, *q;
     p=new int[5];
-    q=new int[10];  //make another pointer and store the value of p in it
+    q=new int[10];  //another pointer and store the value of p in it
     p[0]=10;
     p[1]=11;
     p[2]=111;
