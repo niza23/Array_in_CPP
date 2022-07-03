@@ -28,7 +28,7 @@ struct array* difference(struct array *arr1, struct array *arr2 )
         {
             arr3->a[k++]=arr1->a[i++];
         }
-        else if(arr2->a[j]<arr1->a[i])      //only copy element of first array  
+        else if(arr2->a[j]<arr1->a[i])      //only copy elements of first array  
         {
              j++;
         }
