@@ -39,7 +39,7 @@ int binarysearch(struct array arr,int k)  //without recursion
     
 }
 
-int rbinary(int a[],int l,int h,int k)   //with recursion
+int rbinary(int a[],int l,int h,int k)   //recursion
 {
     int mid;
     while(l<=h)
