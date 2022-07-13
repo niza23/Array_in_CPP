@@ -60,7 +60,7 @@ int main()
     struct array arr={{2,3,4,5,6},10,5};
     cout<<l(arr, 4)<<endl;
 
-    //cout<<"transposition "<<
+    // cout<<"transposition "<<
     t(&arr,4);
     //<<endl;
     display(arr);
