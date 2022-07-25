@@ -49,7 +49,6 @@ struct array* Union(struct array *arr1, struct array *arr2 )
 
 }
 
-
 int main()
 {
     struct array arr1={{2,4,6,8,14},10,5};
