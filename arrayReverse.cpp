@@ -14,6 +14,7 @@ void display(struct array arr)
         cout<<arr.a[i]<<endl;
     } 
 }
+
 void reverse(struct array *arr)  //using two arrays
 {
     int *b;
