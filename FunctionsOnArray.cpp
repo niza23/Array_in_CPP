@@ -33,9 +33,7 @@ int set(struct array *arr,int index,int key)
     }
     else{
         return -1;
-    }
-    
-
+    }   
 }
 
 int max(struct array arr)
@@ -72,7 +70,6 @@ int suma(struct array arr)
         sum=sum+arr.a[i];
     }  
     return sum;
-
 }
 
 float average(struct array arr)
